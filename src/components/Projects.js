@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { projects } from "../projectData";
 
 const Projects = () => {
     return (
-        <div>
+        <section>
            <p>from the Projects component</p>  
-        </div>
+        </section>
     )
 }
 
