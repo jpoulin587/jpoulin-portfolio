@@ -9,9 +9,9 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <main> 
+    <main className="text-gray-400 bg-gray-900 body-font"> 
 
-      <p>Start here</p>
+      <p>Start here (from app JS)</p>
       <Navbar />
       <About />
       <Projects />
