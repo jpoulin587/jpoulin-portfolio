@@ -14,7 +14,19 @@ const About = () => {
                         <p className="mb-8 leading-relaxed">
                         Full stack developer with extensive background supporting, testing, and evaluating customer (user) facing web and mobile applications.  I have several years of experience simultaneously collaborating with sales, operational, and technical teams.  Earning a certificate in Full Stack Web Development from the Rice University Coding Boot Camp (expected completion Nov. 2021).
                         </p>
-                        <div className>
+                        <div className="flex justify-center">
+                           <a
+                                href="#contact" 
+                                className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                                Reach out to me
+                            </a>
+
+                            <a
+                                href="#projects"
+                                className=" "   >
+                                
+                            </a>
+
                             
 
                         </div>
