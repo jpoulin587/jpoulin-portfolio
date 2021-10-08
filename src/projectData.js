@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Full stack with mySql",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-placeholder.png",
+    image: "./project-placeholder1.png",
     githubLink: "https://github.com/jpoulin587/CyberBarbershop",
     deployedLink: "https://barber-shop55.herokuapp.com/"
 
@@ -14,7 +14,7 @@ export const projects = [
     subtitle: "Full stack with mySql",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-placeholder.png",
+    image: "./project-placeholder2.png",
     githubLink: "https://github.com/jpoulin587/CyberBarbershop",
     deployedLink: "https://barber-shop55.herokuapp.com/"
 
@@ -23,7 +23,7 @@ export const projects = [
     subtitle: "Full stack with mySql",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-placeholder.png",
+    image: "./project-placeholder3.png",
     githubLink: "https://github.com/jpoulin587/CyberBarbershop",
     deployedLink: "https://barber-shop55.herokuapp.com/"
 
@@ -32,7 +32,7 @@ export const projects = [
     subtitle: "Full stack with mySql",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-placeholder.png",
+    image: "./project-placeholder4.png",
     githubLink: "https://github.com/jpoulin587/CyberBarbershop",
     deployedLink: "https://barber-shop55.herokuapp.com/"
 
@@ -41,7 +41,7 @@ export const projects = [
     subtitle: "Full stack with mySql",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-placeholder.png",
+    image: "./project-placeholder5.png",
     githubLink: "https://github.com/jpoulin587/CyberBarbershop",
     deployedLink: "https://barber-shop55.herokuapp.com/"
 
