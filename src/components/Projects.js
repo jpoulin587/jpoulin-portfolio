@@ -23,7 +23,7 @@ const Projects = () => {
                         <div className="flex relative">
                             <img
                                 alt="gallery"
-                                className="absolute inset-0 w-auto h-auto object-cover object-center"
+                                className="absolute inset-0 w-auto h-auto rounded-lg object-cover object-center"
                                 src={project.image}
                             />
                             <div className="px-8 py-10 relative z-10 w-full border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">

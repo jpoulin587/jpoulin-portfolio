@@ -55,4 +55,21 @@ export const skills = [
   "Node",
   "GraphQL",
   "Material UI",
+  "HTML",
+  "CSS",
+  "bootstrap",
+  "MySQL",
+  "MongoDB",
+  "Leadership",
+  "Instructional Design",
+  "Training Delivery",
+  "Needs Analysis",
+  "Quality Control",
+  "Software Documentation",
+  "Project Management",
+  "User Experience",
+  "Technical Support",
+
+
+
 ];
