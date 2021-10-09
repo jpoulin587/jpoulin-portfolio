@@ -14,7 +14,7 @@ export const projects = [
     subtitle: "Node.js and Express",
     description:
       "This app allow the user to make notes and save them for later retrieval. Notes can be deleted when they are no longer needed.",
-    image: "./project-placeholder2.png",
+    image: "./notetaker.png",
     githubLink: "https://github.com/jpoulin587/Note-taker-app",
     deployedLink: "https://whispering-shore-28736.herokuapp.com/"
 
@@ -32,7 +32,7 @@ export const projects = [
     title: "Workout Tracker",
     subtitle: "Full stack with mySql",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This Full stack app will all you to enter your workouts and it will show you graphs of the past 7 days of workouts.",
     image: "./workouttracker.png",
     githubLink: "https://github.com/jpoulin587/workout_tracker_nosql",
     deployedLink: "https://workout-track-5150.herokuapp.com/"
@@ -43,7 +43,7 @@ export const projects = [
     subtitle: "Javascript, third party API",
     description:
       "This is a weather dashboard that will get the current conditions and the weather for any city you choose.",
-    image: "./project-placeholder5.png",
+    image: "./weather.png",
     githubLink: "https://github.com/jpoulin587/weather-dashboard-06",
     deployedLink: "https://jpoulin587.github.io/weather-dashboard-06/"
 
