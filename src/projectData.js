@@ -6,7 +6,7 @@ export const projects = [
       "This demonstration app will help a barber shop owner manage the staff, services, and record activity for the shop.  It uses Mysql, Express, Handlebars, Bcrypt technologies.",
     image: "./cyberbarbershop.png",
     githubLink: "https://github.com/jpoulin587/CyberBarbershop",
-    deployedLink: "https://barber-shop55.herokuapp.com/"
+    deployedLink: "https://cyberbarbershop.herokuapp.com/"
 
   },
   {
