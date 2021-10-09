@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
     return (
@@ -10,24 +12,32 @@ const Navbar = () => {
     <div className="lg:flex flex-grow items-center" id="example-navbar-warning">
       <ul className="flex flex-col lg:flex-row list-none ml-auto">
           <li className="nav-item">
-            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="/">
+            <Link 
+              className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" 
+              to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="/projects">
+            <Link 
+              className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" 
+              to="/projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="/skills">
+            <Link 
+              className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" 
+              to="/skills">
               Skills
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="/contact">
+            <Link 
+              className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" 
+              to="/contact">
               Contact Me
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="https://docs.google.com/document/d/e/2PACX-1vS6_eKwDUhjV7HvjRFBhsqAxu6aCWSf6F6gVvv1aWNH9CjIBmtPajhyFOh6E3nNpw/pub" target="_blank" rel="noopener noreferrer">
