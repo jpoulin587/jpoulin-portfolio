@@ -6,7 +6,7 @@ const Projects = () => {
         <section id="projects" className="text-gray-400 bg-gray-900 body-font">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
-                    <h1 className="sm:text-4x1 text-3x1 font-medium title-font mb-4 text-white">
+                    <h1 className="sm:text-4xl text-3xl mt-8 font-medium title-font text-white md-4">
                         Recent Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -17,7 +17,7 @@ const Projects = () => {
                     {projects.map((project) => (
                         <a
                         
-                        href={project.deployedLink}
+                        href={project.deployedLink} target="_blank" rel="noopener noreferrer"
                         key={project.image}
                         className="col-span-2 sm:col-span-1 p-10">
                         <div className="flex relative">

@@ -11,7 +11,7 @@ import { Route, Switch, BrowserRouter } from 'react-router-dom';
 export default function App() {
   return (
   <BrowserRouter>
-    <main className="text-gray-400 bg-gray-900 body-font"> 
+    <main className="text-gray-400 bg-gray-900 body-font max-h-screen"> 
 
       <Navbar />
       <Switch>
