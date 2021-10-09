@@ -16,14 +16,14 @@ const Projects = () => {
                 <div className="grid grid-flow-row grid-cols-2 -m-2">
                     {projects.map((project) => (
                         <a
-                        /*href={project.githubLink}*/
+                        
                         href={project.deployedLink}
                         key={project.image}
                         className="col-span-2 sm:col-span-1 p-10">
                         <div className="flex relative">
                             <img
                                 alt="gallery"
-                                className="absolute inset-0 w-auto h-auto rounded-lg object-cover object-center"
+                                className="absolute inset-0 w-auto h-auto rounded-lg object-cover object-center z-0"
                                 src={project.image}
                             />
                             <div className="px-8 py-10 relative z-10 w-full border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
