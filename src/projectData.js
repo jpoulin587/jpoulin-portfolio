@@ -3,47 +3,59 @@ export const projects = [
     title: "CyberBarberShop1",
     subtitle: "Full stack with mySql",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-placeholder1.png",
+      "This demonstration app will help a barber shop owner manage the staff, services, and record activity for the shop.  It uses Mysql, Express, Handlebars, Bcrypt technologies.",
+    image: "./cyberbarbershop.png",
     githubLink: "https://github.com/jpoulin587/CyberBarbershop",
     deployedLink: "https://barber-shop55.herokuapp.com/"
 
   },
   {
-    title: "CyberBarberShop2",
-    subtitle: "Full stack with mySql",
+    title: "Note-Taker App",
+    subtitle: "Node.js and Express",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This app allow the user to make notes and save them for later retrieval. Notes can be deleted when they are no longer needed.",
     image: "./project-placeholder2.png",
-    githubLink: "https://github.com/jpoulin587/CyberBarbershop",
-    deployedLink: "https://barber-shop55.herokuapp.com/"
+    githubLink: "https://github.com/jpoulin587/Note-taker-app",
+    deployedLink: "https://whispering-shore-28736.herokuapp.com/"
+
+  },
+  {
+    title: "Budget Tracker",
+    subtitle: "Javascript, MongoDB, IndexDB",
+    description:
+      "This is a simple budget tracker that will store transaction data in a Mongo DB in the cloud. If the app is offline, it will continue to store data locally and when the online connection is restored, it will upload stored transactions.",
+    image: "./Budgettracker.png",
+    githubLink: "https://github.com/jpoulin587/budgettracker",
+    deployedLink: "https://budgettracker5545.herokuapp.com/"
 
   },{
-    title: "CyberBarberShop3",
+    title: "Workout Tracker",
     subtitle: "Full stack with mySql",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-placeholder3.png",
-    githubLink: "https://github.com/jpoulin587/CyberBarbershop",
-    deployedLink: "https://barber-shop55.herokuapp.com/"
+    image: "./workouttracker.png",
+    githubLink: "https://github.com/jpoulin587/workout_tracker_nosql",
+    deployedLink: "https://workout-track-5150.herokuapp.com/"
 
-  },{
-    title: "CyberBarberShop4",
-    subtitle: "Full stack with mySql",
+  },
+  {
+    title: "Weather Dashboard",
+    subtitle: "Javascript, third party API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-placeholder4.png",
-    githubLink: "https://github.com/jpoulin587/CyberBarbershop",
-    deployedLink: "https://barber-shop55.herokuapp.com/"
-
-  },{
-    title: "CyberBarberShop5",
-    subtitle: "Full stack with mySql",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This is a weather dashboard that will get the current conditions and the weather for any city you choose.",
     image: "./project-placeholder5.png",
-    githubLink: "https://github.com/jpoulin587/CyberBarbershop",
-    deployedLink: "https://barber-shop55.herokuapp.com/"
+    githubLink: "https://github.com/jpoulin587/weather-dashboard-06",
+    deployedLink: "https://jpoulin587.github.io/weather-dashboard-06/"
+
+  },
+  {
+    title: "Regex Tutorial",
+    subtitle: "GitHub Gist",
+    description:
+      "This is a tutorial that explains the details of using a regular expression to validate an email address",
+    image: "./Regex Tutorial.png",
+    githubLink: "",
+    deployedLink: "https://gist.github.com/jpoulin587/e2448f45372adb85ec11a6983e26d12e"
 
   },
 ];

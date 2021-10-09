@@ -19,7 +19,7 @@ const Projects = () => {
                         /*href={project.githubLink}*/
                         href={project.deployedLink}
                         key={project.image}
-                        className="col-span-2 sm:col-span-1 p-8">
+                        className="col-span-2 sm:col-span-1 p-10">
                         <div className="flex relative">
                             <img
                                 alt="gallery"
