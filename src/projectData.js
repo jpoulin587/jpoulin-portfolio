@@ -66,7 +66,7 @@ export const skills = [
   "Next.js",
   "Node",
   "GraphQL",
-  "Material UI",
+  "Tailwind CSS",
   "HTML",
   "CSS",
   "bootstrap",
