@@ -19,7 +19,7 @@ const Contact = () => {
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   MY GITHUB
                 </h2>
-                <a href="https://github.com/jpoulin587"  className="text-indigo-400 mt-1">
+                <a href="https://github.com/jpoulin587"  className="text-indigo-400 mt-1" target="_blank" rel="noopener noreferrer">
                 github.com/jpoulin587
                 </a>
               </div>
@@ -30,16 +30,12 @@ const Contact = () => {
                 <p className="text-indigo-400 leading-relaxed">
                   jpoulin587a@gmail.com
                 </p>
-                <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                  PHONE
-                </h2>
-                <p className="leading-relaxed">123-456-7890</p>
                 <br />
                 
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                   LinkedIn
                 </h2>
-                <a href="https://www.linkedin.com/in/jim-poulin/" className="text-indigo-400 leading-relaxed">
+                <a href="https://www.linkedin.com/in/jim-poulin/" className="text-indigo-400 leading-relaxed" target="_blank" rel="noopener noreferrer">
                 www.linkedin.com/in/jim-poulin/
                 </a>
                 
