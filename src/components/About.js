@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
                     Web development and more
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                    Full stack developer with extensive background supporting, testing, and evaluating customer (user) facing web and mobile applications.  Over 10 years of experience simultaneously collaborating with sales, operational, and technical teams.  Earning a certificate in Full Stack Web Development from the Rice University Coding Boot Camp (expected completion Nov. 2021).
+                    Full stack developer with extensive background supporting, testing, and evaluating customer (user) facing web and mobile applications.  Over 10 years of experience working with cross functional teams including sales, operational, and technical teams.  Graduate of the Full Stack Web Development Boot Camp from Rice University (November 2010).
                     </p>
                     <div className="flex justify-center">
                         <a
@@ -20,11 +21,11 @@ const About = () => {
                             Reach out to me
                         </a>
 
-                        <a
-                            href="#projects"
+                        <Link
+                            to="/projects"
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:text-white rounded text-lg"   >
                             Projects I've been working on
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
