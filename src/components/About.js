@@ -15,11 +15,11 @@ const About = () => {
                     Full stack developer with extensive background supporting, testing, and evaluating customer (user) facing web and mobile applications.  Over 10 years of experience working with cross functional teams including sales, operational, and technical teams.  Graduate of the Full Stack Web Development Boot Camp from Rice University (November 2010).
                     </p>
                     <div className="flex justify-center">
-                        <a
-                            href="#contact" 
+                        <Link
+                            to="/contact" 
                             className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                             Reach out to me
-                        </a>
+                        </Link>
 
                         <Link
                             to="/projects"
