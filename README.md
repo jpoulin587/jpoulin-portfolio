@@ -7,6 +7,8 @@ I am a Full stack developer with extensive background supporting, testing, and e
 
 Here I will will showcase the latest project I am using to further develop my skills.
 
+![screenshot of the first page of the portfolio](./screenshot)
+
 ## Deployed site
 
 Click the link below to the deployed site:  
