@@ -12,7 +12,7 @@ const About = () => {
                     Web development and more
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                    Full stack developer with extensive background supporting, testing, and evaluating customer (user) facing web and mobile applications.  Over 10 years of experience working with cross functional teams including sales, operational, and technical teams.  Graduate of the Full Stack Web Development Boot Camp from Rice University (November 2010).
+                    Full stack developer with extensive background supporting, testing, and evaluating customer (user) facing web and mobile applications.  Over 10 years of experience working with cross functional teams including sales, operational, and technical teams.  Graduate of the Full Stack Web Development Boot Camp from Rice University.
                     </p>
                     <div className="flex justify-center">
                         <Link
